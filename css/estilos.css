@@ -94,3 +94,49 @@ h3{
     margin-top: 5%;
     margin-bottom: 2%;
 }
+
+@media (max-width:600px) {
+    
+    .contenedor{
+        flex-flow: column;
+        align-items:center;
+        justify-content: center;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+        margin-top: 1%;
+        justify-items: center;
+        margin-left: 0%;
+        margin-bottom: 5%;
+        }
+
+        h1 {font-size: 30px
+        }
+
+    h2 {
+        font-size: 20px;
+        }
+    
+    nav {
+        word-spacing: 20px;
+        font-size: medium;
+        }
+
+    .flex-container {
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        }
+    
+    .contenedor1{
+        width: 75%;
+    }
+    
+    .contenedor2{
+        width: 75%;
+        text-align: left;
+    }
+}
