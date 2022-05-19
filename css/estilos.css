@@ -5,7 +5,8 @@ header {
     }
 
 .contenedor{
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
@@ -20,7 +21,8 @@ header {
     flex-flow: column;
     }
 
-h1 {font-size: 40px
+h1 {font-size: 40px;
+    font-weight: 800;
     }
 
 img {
@@ -31,13 +33,15 @@ img {
     }
 
 h2 {
-    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-family: 'Cairo' , sans-serif;
+    font-weight: 400;
     color: gray ;
     font-size: 25px;
     text-align: center;
     }
 
-nav {font-family: 'Teko', sans-serif;
+nav {font-family: 'Montserrat' , sans-serif;
+    font-weight: 700;
     align-items: center;
     text-align: center;
     margin-top: 2%; ;
@@ -63,6 +67,7 @@ nav {font-family: 'Teko', sans-serif;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif; 
     font-weight: lighter;
+    margin-top: 2%;
 }
 
 .contenedor1 {
@@ -72,9 +77,13 @@ nav {font-family: 'Teko', sans-serif;
     flex-wrap: wrap;
     flex-direction: column;
     
-    
     }
 
+.izquierda {
+    margin-bottom: 18%;
+    
+
+}    
 
 .contenedor2 {
     width: 35%;
@@ -90,25 +99,24 @@ nav {font-family: 'Teko', sans-serif;
 
 h3{
     font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 5%;
+    font-family: 'Cairo', sans-serif;
+    font-weight:600 ;
     margin-bottom: 2%;
 }
 
 @media (max-width:600px) {
     
     .contenedor{
-        flex-flow: column;
         align-items:center;
         justify-content: center;
     }
 
     img {
-        width: 200px;
-        height: 200px;
+        width: 140px;
+        height: 140px;
         margin-top: 1%;
         justify-items: center;
-        margin-left: 0%;
+        margin-left: 2%;
         margin-bottom: 5%;
         }
 
@@ -133,7 +141,7 @@ h3{
     
     .contenedor1{
         width: 75%;
-    }
+        }
     
     .contenedor2{
         width: 75%;
